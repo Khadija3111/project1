@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 700px
+}
+.lane{
+    /* text-align: center; */
+
+    display: block;
+    /* align-items: center; */
+    /* justify-content:center; */
+    width: 200px;
+    font-size: 5rem;
+}
+    h2{
+        font-weight: 800;
+        font-size:  3.5em;
+    }
+.contact-ussec{
+  
+margin: 80px;
+height: 150vh;
+padding: 200px;
+background-color: rgb(252, 252, 252);
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+padding-bottom: 900px;
+/* padding-right: 600px; */
+/* margin-left: 600px; */
+}
+/* .contact-us{
+    gap: 50px;
+} */
+
+.contact-us{
+    display: flex;
+flex-direction: column;
+font-size: 4rem;  
+
+ 
+}
+.form-m{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+    width: 100%;
+    font-size: 2.7rem;
+    background-color:  rgb(252, 252, 252);
+     border: 50px; 
+  
+   
+}
+
+label{
+    padding-top:  40px;
+    color: black;
+
+}
+input {
+    width: 50%;
+    height: 90px;
+    margin-top: 20px;
+}
+textarea{
+    height: 290px;
+    width: 50%;
+}
+.submit{
+    width: 200px;
+    font-size: 6rem;
+    font-weight: 100px;
+    background-color: #2bac47;
+    color: beige;
+}
+.name{
+    max-width: 50%;
+    
+
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100%;
+    border: none;
+    background-color: #30C04F;
+  }
+  
+  .button:hover {
+    background-color: #2bac47;
+  }
+  .numbersec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .div2{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+   
+   
+    
+  }
+  .gitt{
+    width: 200px;
+  }
+  @media screen and (min-width: 760px) {
+    .contact-ussec {
+        /* width:fit-content ;
+         */
+         width:100%;
+        height:fit-content;   
+        font-size:xx-small;
+        margin: 0;
+        padding: 0;
+    
+    
+    }
+   
+   }
+
